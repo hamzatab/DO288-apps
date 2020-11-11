@@ -18,7 +18,7 @@ DATE=`date "+%b %d, %Y @ %H:%M %p"`
 
 echo "----> built on $DATE" >> ./info.html
 
-cp -Rf /tmp/src/myscript.sh ./var/tmp/myscript.sh
+cp -Rf /tmp/src/myscript.sh /tmp/myscript.sh
 ######## CUSTOMIZATION ENDS HERE ############
 
 if [ -d ./httpd-cfg ]; then
